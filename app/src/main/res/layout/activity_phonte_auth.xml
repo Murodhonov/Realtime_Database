@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0D47A1"
+    tools:context=".PhoneAuth">
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="25dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="Number"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:textColor="#0D47A1"
+        android:layout_marginHorizontal="25sp"
+        android:backgroundTint="@color/white"/>
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="250sp"
+        android:textAllCaps="false"
+        android:textColor="#0D47A1"
+        android:backgroundTint="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Phone Authentication" />
+
+  <Button
+      android:id="@+id/google"
+      android:layout_width="250sp"
+      android:textAllCaps="false"
+      android:textColor="#0D47A1"
+      android:backgroundTint="@color/white"
+      android:layout_height="wrap_content"
+      android:text="Google Authentication" />
+
+</LinearLayout>
